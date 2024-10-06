@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee664118-0231-4f67-9c8c-32705c01c706" name="Changes" comment="" />
+    <list default="true" id="ee664118-0231-4f67-9c8c-32705c01c706" name="Changes" comment="Изменение">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_calculator.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +31,44 @@
     "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable"
   }
 }]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for tests.test_calculator.TestCalculator.test_add_negative">
+    <configuration name="Python tests for tests.test_calculator.TestCalculator" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_test" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_calculator.TestCalculator&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_calculator.TestCalculator.test_add_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_test" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_calculator.TestCalculator.test_add_negative&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for tests.test_calculator.TestCalculator.test_add_negative" />
+        <item itemvalue="Python tests.Python tests for tests.test_calculator.TestCalculator" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -44,6 +85,27 @@
       <option name="presentableId" value="Default" />
       <updated>1728221674276</updated>
     </task>
+    <task id="LOCAL-00001" summary="Изменение">
+      <option name="closed" value="true" />
+      <created>1728222122999</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728222122999</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Изменение">
+      <option name="closed" value="true" />
+      <created>1728222226006</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728222226006</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Изменение" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменение" />
   </component>
 </project>

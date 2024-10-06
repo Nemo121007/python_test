@@ -1,5 +1,5 @@
 import unittest
-import qadro_calculate
+from .. import qadro_calculate
 
 class TestCalculator(unittest.TestCase):
 
