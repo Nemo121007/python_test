@@ -1,5 +1,7 @@
+import sys
 import unittest
-from .. import qadro_calculate
+sys.path.append('../')  # Добавляем родительский каталог в путь поиска модулей
+import qadro_calculate
 
 class TestCalculator(unittest.TestCase):
 
