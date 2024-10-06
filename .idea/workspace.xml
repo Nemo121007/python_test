@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee664118-0231-4f67-9c8c-32705c01c706" name="Changes" comment="Изменение">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qadro_calculate.py" beforeDir="false" afterPath="$PROJECT_DIR$/logic/qadro_calculate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_calculator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
     "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_calculator.TestCalculator.test_add_positive">
+  <component name="RunManager" selected="Python tests.Python tests for test_calculator.TestCalculator">
     <configuration name="Python tests for test_calculator.TestCalculator" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_test" />
       <option name="ENV_FILES" value="" />
@@ -104,8 +105,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_calculator.TestCalculator.test_add_positive" />
         <item itemvalue="Python tests.Python tests for test_calculator.TestCalculator" />
+        <item itemvalue="Python tests.Python tests for test_calculator.TestCalculator.test_add_positive" />
         <item itemvalue="Python tests.Python tests for tests.test_calculator.TestCalculator.test_add_negative" />
         <item itemvalue="Python tests.Python tests for tests.test_calculator.TestCalculator" />
       </list>
@@ -167,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728227728700</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Изменение">
+      <option name="closed" value="true" />
+      <created>1728228758257</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728228758257</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
