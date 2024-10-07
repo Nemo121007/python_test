@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee664118-0231-4f67-9c8c-32705c01c706" name="Changes" comment="Тест квадратного уравнения">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sonar-project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sonar-project.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +268,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728301086415</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Тест квадратного уравнения">
+      <option name="closed" value="true" />
+      <created>1728311552648</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1728311552648</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Тест квадратного уравнения">
+      <option name="closed" value="true" />
+      <created>1728311762070</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728311762070</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
