@@ -42,3 +42,5 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: sonar-scanner \
+          -Dsonar.python.coverage.reportPaths=coverage.xml
