@@ -28,7 +28,8 @@ jobs:
 
       - name: Run tests with pytest and generate coverage report
         run: |
-          ./venv/bin/pytest --cov=src --cov-report=xml --cov-report=term ./src/tests/
+          ./venv/bin/pytest --cov=src --cov-report=xml --cov-config=.coveragerc ./src/tests/
+
 
       - name: Upload coverage report to Coveralls
         run: ./venv/bin/coveralls

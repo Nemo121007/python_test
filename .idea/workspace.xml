@@ -438,7 +438,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728326719367</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Тест sonarcloud">
+      <option name="closed" value="true" />
+      <created>1728327357892</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1728327357892</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Тест sonarcloud">
+      <option name="closed" value="true" />
+      <created>1728327558968</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1728327558968</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
