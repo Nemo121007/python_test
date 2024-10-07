@@ -29,8 +29,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run tests with pytest
-        # Используем абсолютный путь
-        run: pytest --cov=calculate_quadratic_equation ./tests/
+        run: pytest --cov=src/calculate_quadratic_equation ./src/tests/
 
       - name: Upload coverage report to Coveralls
         run: coveralls

@@ -1,5 +1,5 @@
 import unittest
-from calculate_quadratic_equation import calculate_quadratic_equation
+from src.calculate_quadratic_equation import calculate_quadratic_equation
 
 class TestQuadraticEquation(unittest.TestCase):
 
