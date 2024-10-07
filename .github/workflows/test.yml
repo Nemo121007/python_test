@@ -26,11 +26,9 @@ jobs:
           ./venv/bin/pip install -r requirements.txt
           ./venv/bin/pip install pytest-cov coveralls
 
-      - name: Run tests and generate coverage report
+      - name: Run tests with pytest and generate coverage report
         run: |
-          mkdir -p reports  
-          . venv/bin/activate
-          pytest --cov=src/calculate_quadratic_equation --cov-report=xml:reports/coverage.xml --cov-config=.coveragerc ./tests/
+          ./venv/bin/pytest --cov=src --cov-report=xml:coverage.xml --cov-config=.coveragerc ./tests/
 
       - name: Upload coverage report to Coveralls
         run: ./venv/bin/coveralls
