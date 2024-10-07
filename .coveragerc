@@ -2,5 +2,4 @@
 source = src
 
 [report]
-omit =
-    */tests/*
+relative_files = True
