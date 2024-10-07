@@ -39,7 +39,6 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@master
         with:
           projectBaseDir: .
-          coverageFile: coverage.xml  # Укажите файл отчета о покрытии для SonarCloud
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
