@@ -26,23 +26,21 @@ jobs:
           ./venv/bin/pip install -r requirements.txt
           ./venv/bin/pip install pytest-cov coveralls
 
-      - name: Run tests with pytest and generate coverage report
+      - name: Run tests and generate coverage report
         run: |
-          ./venv/bin/pytest --cov=src --cov-report=xml:coverage.xml --cov-config=.coveragerc ./tests/
+          mkdir -p reports  
+          . venv/bin/activate
+          pytest --cov=src --cov-report=xml:reports/coverage.xml --cov-config=.coveragerc ./tests/
 
       - name: Upload coverage report to Coveralls
         run: ./venv/bin/coveralls
         env:
           COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
 
-
-      - name: Install tox and any other packages
-        run: pip install tox
-      - name: Run tox
-        run: tox -e py
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
+        with:
+          projectBaseDir: .
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-
-
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
