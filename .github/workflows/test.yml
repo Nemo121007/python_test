@@ -42,6 +42,12 @@ jobs:
           java-version: '17'
           distribution: 'adopt'
 
+      # Обновление переменной JAVA_HOME, чтобы использовать Java 17
+      - name: Set Java 17 as default
+        run:
+          echo "JAVA_HOME: /opt/hostedtoolcache/Java_Adopt_jdk/17.0.8-0/x64" >> $GITHUB_ENV
+
+
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@v1
         with:
