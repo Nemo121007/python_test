@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee664118-0231-4f67-9c8c-32705c01c706" name="Changes" comment="Тест">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qadro_calculate.py" beforeDir="false" afterPath="$PROJECT_DIR$/qadro_calculate.py" afterDir="false" />
-    </list>
+    <list default="true" id="ee664118-0231-4f67-9c8c-32705c01c706" name="Changes" comment="Тест квадратного уравнения" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +34,7 @@
     "Python tests.Python tests for test_calculator.TestCalculator.executor": "Run",
     "Python tests.Python tests for test_calculator.TestCalculator.test_add_negative.executor": "Run",
     "Python tests.Python tests for test_calculator.TestCalculator.test_add_positive.executor": "Run",
+    "Python tests.Python tests for test_calculator.TestQuadraticEquation.executor": "Run",
     "Python tests.Python tests for tests.test_calculator.TestCalculator.executor": "Run",
     "Python tests.Python tests for tests.test_calculator.TestCalculator.test_add_negative.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -48,7 +46,7 @@
       <recent name="C:\Users\Saveliy\Documents\python_test\logic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_calculator.TestCalculator">
+  <component name="RunManager" selected="Python tests.Python tests for test_calculator.TestQuadraticEquation">
     <configuration name="Python tests for test_calculator.TestCalculator" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_test" />
       <option name="ENV_FILES" value="" />
@@ -94,18 +92,18 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.test_calculator.TestCalculator" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_calculator.TestQuadraticEquation" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_test" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_calculator.TestCalculator&quot;" />
+      <option name="_new_target" value="&quot;test_calculator.TestQuadraticEquation&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -126,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_calculator.TestQuadraticEquation" />
         <item itemvalue="Python tests.Python tests for test_calculator.TestCalculator" />
         <item itemvalue="Python tests.Python tests for test_calculator.TestCalculator.test_add_negative" />
         <item itemvalue="Python tests.Python tests for test_calculator.TestCalculator.test_add_positive" />
         <item itemvalue="Python tests.Python tests for tests.test_calculator.TestCalculator.test_add_negative" />
-        <item itemvalue="Python tests.Python tests for tests.test_calculator.TestCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -230,12 +228,21 @@
       <option name="project" value="LOCAL" />
       <updated>1728298919720</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Тест квадратного уравнения">
+      <option name="closed" value="true" />
+      <created>1728300942365</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728300942365</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Изменение" />
     <MESSAGE value="Тест" />
-    <option name="LAST_COMMIT_MESSAGE" value="Тест" />
+    <MESSAGE value="Тест квадратного уравнения" />
+    <option name="LAST_COMMIT_MESSAGE" value="Тест квадратного уравнения" />
   </component>
 </project>
