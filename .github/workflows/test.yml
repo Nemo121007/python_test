@@ -44,8 +44,8 @@ jobs:
 
       # Обновление переменной JAVA_HOME, чтобы использовать Java 17
       - name: Set Java 17 as default
-        run:
-          echo "JAVA_HOME: /opt/hostedtoolcache/Java_Adopt_jdk/17.0.8-0/x64" >> $GITHUB_ENV
+        run: |
+          echo "JAVA_HOME=${{ steps.setup-java.outputs.java-home }}" >> $GITHUB_ENV
 
 
       - name: SonarCloud Scan
