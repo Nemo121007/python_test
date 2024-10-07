@@ -13,9 +13,6 @@ build/
 develop/
 *.egg-info
 
-# Our own local coverage data
-coverage/
-
 # Local configuration
 .env
 .git-credentials
