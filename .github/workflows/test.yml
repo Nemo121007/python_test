@@ -30,7 +30,7 @@ jobs:
 
       - name: Run tests with pytest
         # Используем абсолютный путь
-        run: pytest --cov=qadro_calculate.py ./qadro_calculate.py ./tests/
+        run: pytest --cov=qadro_calculate ./tests/
 
       - name: Upload coverage report to Coveralls
         run: coveralls
