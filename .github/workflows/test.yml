@@ -30,7 +30,7 @@ jobs:
         run: |
           mkdir -p reports  
           . venv/bin/activate
-          pytest --cov=src --cov-report=xml:reports/coverage.xml --cov-config=.coveragerc ./tests/
+          pytest --cov=src/calculate_quadratic_equation --cov-report=xml:reports/coverage.xml --cov-config=.coveragerc ./tests/
 
       - name: Upload coverage report to Coveralls
         run: ./venv/bin/coveralls
