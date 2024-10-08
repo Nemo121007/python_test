@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee664118-0231-4f67-9c8c-32705c01c706" name="Changes" comment="Тест sonarcloud">
+      <change beforePath="$PROJECT_DIR$/.coveragerc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tox.ini" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +57,7 @@
     &quot;Python tests.Python tests for tests.test_calculator.TestCalculator.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for tests.test_calculator.TestCalculator.test_add_negative.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -238,54 +243,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728221674276</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Изменение">
-      <option name="closed" value="true" />
-      <created>1728222122999</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1728222122999</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Изменение">
-      <option name="closed" value="true" />
-      <created>1728222226006</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1728222226006</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Изменение">
-      <option name="closed" value="true" />
-      <created>1728225513298</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1728225513298</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Изменение">
-      <option name="closed" value="true" />
-      <created>1728227329519</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1728227329519</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Изменение">
-      <option name="closed" value="true" />
-      <created>1728227728700</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1728227728700</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Изменение">
-      <option name="closed" value="true" />
-      <created>1728228758257</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1728228758257</updated>
     </task>
     <task id="LOCAL-00007" summary="Изменение">
       <option name="closed" value="true" />
@@ -575,7 +532,111 @@
       <option name="project" value="LOCAL" />
       <updated>1728331402692</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Тест sonarcloud">
+      <option name="closed" value="true" />
+      <created>1728332783154</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1728332783154</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Тест sonarcloud">
+      <option name="closed" value="true" />
+      <created>1728333167763</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1728333167763</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Тест sonarcloud">
+      <option name="closed" value="true" />
+      <created>1728333298632</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1728333298632</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Тест sonarcloud">
+      <option name="closed" value="true" />
+      <created>1728333461937</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1728333461937</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Тест sonarcloud">
+      <option name="closed" value="true" />
+      <created>1728333708441</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1728333708441</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Тест sonarcloud">
+      <option name="closed" value="true" />
+      <created>1728334014434</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1728334014434</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Тест sonarcloud">
+      <option name="closed" value="true" />
+      <created>1728334202964</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1728334202964</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Тест sonarcloud">
+      <option name="closed" value="true" />
+      <created>1728334454401</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1728334454402</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Тест sonarcloud">
+      <option name="closed" value="true" />
+      <created>1728334741137</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1728334741138</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Тест sonarcloud">
+      <option name="closed" value="true" />
+      <created>1728337177879</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1728337177879</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Тест sonarcloud">
+      <option name="closed" value="true" />
+      <created>1728337396830</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1728337396830</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Тест sonarcloud">
+      <option name="closed" value="true" />
+      <created>1728338084872</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1728338084873</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Тест sonarcloud">
+      <option name="closed" value="true" />
+      <created>1728338126914</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1728338126914</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
