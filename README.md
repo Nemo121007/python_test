@@ -13,6 +13,9 @@
 ![example workflow](https://github.com/Nemo121007/python_test/actions/workflows/test.yml/badge.svg)
 
 # Решение квадратного уравнения
+
 Реализация алгоритма решения квадратного уравнения в вещественных числах
+
 Функция расчёта уравнения scr/calculate_quadratic_equation
+
 Тесты: tests/
