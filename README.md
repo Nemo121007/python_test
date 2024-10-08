@@ -11,3 +11,8 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Nemo121007_python_test&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Nemo121007_python_test)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Nemo121007_python_test&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Nemo121007_python_test)
 ![example workflow](https://github.com/Nemo121007/python_test/actions/workflows/test.yml/badge.svg)
+
+# Решение квадратного уравнения
+Реализация алгоритма решения квадратного уравнения в вещественных числах
+Функция расчёта уравнения scr/calculate_quadratic_equation
+Тесты: tests/
